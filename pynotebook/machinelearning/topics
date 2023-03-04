@@ -1,0 +1,59 @@
+LinearRegression
+LabelEncoder
+OneHotEncoder
+train_test_split
+LogisticRegression
+confusion_matrix
+DecisionTreeClassifier
+sklearn.datasets
+SupportVectorClassifier
+RandomForestClassifier
+K-Fold Cross Validation
+K-Means Clustering Algorithm
+dummies = pd.get_dummies(X.Sex)
+
+
+
+from sklearn.tree import DecisionTreeClassifier
+
+from sklearn.datasets import load_iris, load_digits
+
+from sklearn.svm import SVC
+
+from sklearn.metrics import confusion_matrix
+
+from sklearn.ensemble import RandomForestClassifier
+
+from sklearn.model_selection import KFold
+
+from sklearn.model_selection import StratifiedKFold
+
+from sklearn.model_selection import cross_val_score
+
+from sklearn.cluster import KMeans
+
+from sklearn.preprocessing import MinMaxScaler
+
+from sklearn.feature_extraction.text import CountVectorizer
+
+from sklearn.naive_bayes import GaussianNB, BernoulliNB, MultinomialNB
+
+from sklearn.pipeline import Pipeline
+
+from sklearn.model_selection import GridSearchCV
+
+from sklearn.model_selection import RandomizedSearchCV
+
+from sklearn.linear_model import Lasso
+
+from sklearn.linear_model import Ridge
+
+from sklearn.neighbors import KNeighborsClassifier
+
+from sklearn.metrics import classification_report
+
+from sklearn.preprocessing import StandardScaler
+
+from sklearn.decomposition import PCA
+
+from sklearn.ensemble import BaggingClassifier
